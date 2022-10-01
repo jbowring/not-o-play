@@ -21,9 +21,6 @@
 		5D78D37728B0D36900F57F88 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 5D78D37628B0D36900F57F88 /* images */; };
 		5D78D37928B0D36900F57F88 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D78D37828B0D36900F57F88 /* manifest.json */; };
 		5D78D37D28B0D36900F57F88 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 5D78D37C28B0D36900F57F88 /* content.js */; };
-		5D78D37F28B0D36900F57F88 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 5D78D37E28B0D36900F57F88 /* popup.html */; };
-		5D78D38128B0D36900F57F88 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 5D78D38028B0D36900F57F88 /* popup.css */; };
-		5D78D38328B0D36900F57F88 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 5D78D38228B0D36900F57F88 /* popup.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,9 +65,6 @@
 		5D78D37628B0D36900F57F88 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		5D78D37828B0D36900F57F88 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		5D78D37C28B0D36900F57F88 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
-		5D78D37E28B0D36900F57F88 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
-		5D78D38028B0D36900F57F88 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
-		5D78D38228B0D36900F57F88 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		5D78D38428B0D36900F57F88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D78D38528B0D36900F57F88 /* NaughtoPlay_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NaughtoPlay_Extension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -154,9 +148,6 @@
 				5D78D37628B0D36900F57F88 /* images */,
 				5D78D37828B0D36900F57F88 /* manifest.json */,
 				5D78D37C28B0D36900F57F88 /* content.js */,
-				5D78D37E28B0D36900F57F88 /* popup.html */,
-				5D78D38028B0D36900F57F88 /* popup.css */,
-				5D78D38228B0D36900F57F88 /* popup.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -255,13 +246,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D78D38128B0D36900F57F88 /* popup.css in Resources */,
-				5D78D37F28B0D36900F57F88 /* popup.html in Resources */,
 				5D78D37728B0D36900F57F88 /* images in Resources */,
 				5D78D37928B0D36900F57F88 /* manifest.json in Resources */,
 				5D78D37528B0D36900F57F88 /* _locales in Resources */,
 				5D78D37D28B0D36900F57F88 /* content.js in Resources */,
-				5D78D38328B0D36900F57F88 /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
